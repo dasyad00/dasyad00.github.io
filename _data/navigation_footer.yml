@@ -1,0 +1,8 @@
+- name: 'About'
+  url: '/info/'
+
+- name: 'Navigation'
+  url: '/navigation/'
+
+- name: 'Theme'
+  url: 'https://github.com/Phlow/simplicity'

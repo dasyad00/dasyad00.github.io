@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+gem 'jekyll'
+gem 'jekyll-gist'
+gem 'jekyll-sitemap'
+gem 'jekyll-paginate'
+
+# https://github.com/jekyll/jekyll/issues/8523
+gem 'webrick'
