@@ -121,7 +121,7 @@ defaults:
       layout: page      # Set default layout to page
       show_meta: false  # Hide metadata for all pages
       comments: false
-      author: 'Moritz »mo.« Sauer'     # Default author for pages
+      author: 'Danang Syady Rahmatullah'     # Default author for pages
   -
     scope:
       path: ''
@@ -130,7 +130,7 @@ defaults:
       layout: page      # Set default layout to page
       show_meta: true   # Show metadata for all posts
       comments: false
-      author: 'Moritz »mo.« Sauer'     # Default author for posts
+      author: 'Danang Syady Rahmatullah'     # Default author for posts
 
 
 
