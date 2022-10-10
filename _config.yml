@@ -36,8 +36,8 @@ url           : 'https://dasyad.me'
 baseurl       : ''
 markdown      : kramdown
 highlighter   : rouge
-permalink     : /:categories/:title/
-encoding      : utf-8
+permalink     : /:categories/:title
+encoding      : UTF-8
 destination   : _site
 lang          : 'en'             # The language setting is used in /includes/header.html for html-settings
 
@@ -176,7 +176,7 @@ msapplication_tilecolor:                '#fabb00'
 
 sass:
     sass_dir: _sass
-    style: :compressed
+    style: compressed
 
 
 #        ____  _
