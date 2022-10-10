@@ -1,6 +1,6 @@
 ---
 title: Guide to studying a Bachelors in the Netherlands
-date: 2021-10-10 22:00:00.00 +02:00
+date: 2022-10-10 22:00:00.00 +02:00
 ---
 
 The Netherlands has been the destination for many international students for the past few years (See [CBS article](https://www.cbs.nl/en-gb/news/2022/11/40-percent-international-first-year-students-at-dutch-universities)). It is one of the few European countries which offer Bachelor programs in English while being relatively affordable for EU residents and even non-EU residents (when compared to international student fees in other countries offering English-based higher education eg. the UK, US, Canada, and Australia).
