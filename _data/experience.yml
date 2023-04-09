@@ -1,0 +1,21 @@
+- company: Alltrons
+  positions:
+  - name: Software Engineer
+    date: 2022 Nov - Present
+    description:
+    - Develop native API bindings for Flutter (with dart:ffi) and Android (with Kotlin JNI)
+    - Create REST APIs with Java Spring Boot
+    - Manage web server deployments on Linux virtual machines
+    - "Technologies: Dart, C++, Java (Spring boot)"
+
+- company: MindYourPass
+  positions:
+  - name: Software Developer
+    date: 2020 Aug - 2022 Aug
+    description:
+    - Develop the Android front-end application in Kotlin for generating user passwords.
+    - Design and plan the UX of the mobile application, including internationalization, 
+    - Orchestrate movement of sensitive user data 
+    - Maintain code quality with JUnit, mockk and ktlint.
+    - Active participant in scrum planning, sprint reviews and sprint retrospectives
+    - "Technologies: Koin, Kotlin Coroutines, JUnit, mockk, Retrofit"

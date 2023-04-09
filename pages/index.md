@@ -10,8 +10,6 @@ permalink: /
 
 Greetings! 
 
-My name is Danang Syady Rahmatullah. I am an Indonesian Muslim currently based in the Netherlands working part-time as an Android Developer.
+My name is Danang Syady Rahmatullah. I am an Indonesian Muslim currently based in the Netherlands.
 
-This is where I dump stuff I have on my mind. It may be a program I wrote or a rant about life; regardless, it will hopefully give an insight into seeing the world through my lenses.
-
-Tinkerer at heart.
+This is where I dump thoughts I have in mind. It may be a program I wrote or a rant about life; regardless, it will hopefully be an insight to seeing the world through my lenses.

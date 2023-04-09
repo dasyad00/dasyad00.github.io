@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "jekyll",
+            "command": "bundle exec jekyll serve --config _config.yml,_config_dev.yml",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+    ]
+}

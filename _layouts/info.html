@@ -1,0 +1,100 @@
+---
+layout: default
+---
+<!--https://github.com/jglovier/resume-template/blob/gh-pages/_layouts/resume.html-->
+<style>
+    .resume-item {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        /* background-color: gray; */
+        /* margin-bottom: 50px; */
+    }
+
+    .resume-item-title {
+        font-size: 1.25em;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .resume-subitem {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .resume-subitem .title {
+        font-size: 1.125em;
+    }
+
+    .resume-subitem .date {
+        font-size: 0.75em;
+    }
+
+    .resume-subitem ul {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .resume-subitem .description {
+        font-size: 0.75em;
+        margin: 0;
+    }
+</style>
+<main role="main" id="content" class="row">
+    <div class="medium-8 medium-centered columns">
+        <h1 itemprop="name headline">{{ page.title | remove: '<p>' | remove: '</p>' }}</h1>
+        <div class="main-content" itemprop="articleSection">
+            {{ content }}
+            <!--begin experience-->
+            <section class="content-section">
+                <header class="section-header">
+                    <h2>Experience</h2>
+                </header>
+                {% for job in site.data.experience %}
+                <div class="resume-item" itemprop="worksFor" itemtype="http://schema.org/Organization">
+                    <div class="resume-item-title" itemprop="name">{{ job.company }}</div>
+                    {% for position in job.positions %}
+                    <div class="resume-subitem">
+                        <div class="title" itemprop="description">{{ position.name }}</div>
+                        <div class="date">{{ position.date }}</div>
+                        <ul>
+                            {% for line in position.description %}
+                            <li class="description">{{ line }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endfor %}
+                    <div class="medium-8"></div>
+                </div>
+                {% endfor %}
+            </section>
+            <!--end experience-->
+
+            <!--begin education-->
+            <section class="content-section">
+                <header class="section-header">
+                    <h2>Education</h2>
+                </header>
+                {% for education in site.data.education %}
+                <div class="resume-item" itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+                    <div class="resume-item-title" itemprop="name">{{ education.location }}</div>
+                    {% for degree in education.degrees %}
+                    <div class="resume-subitem">
+                        <div class="title" itemprop="description">{{ degree.name }}</div>
+                        <div class="date">{{ degree.date }}</div>
+                        <ul>
+                            {% for line in degree.description %}
+                            <li class="description">{{ line }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endfor %}
+                    <div class="medium-8"></div>
+                </div>
+                {% endfor %}
+            </section>
+            <!--end education-->
+        </div>
+    </div>
+</main>

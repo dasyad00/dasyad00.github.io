@@ -1,12 +1,9 @@
 ---
+title: "About me"
 subheadline: 'Summary'
-title: 'About me'
-image: 'profile.jpg'
 permalink: /info/
+show_meta: false
+layout: info
 ---
 
-Welcome to the summary page!
-
-At some stage, I'll put my CV/Resume here. Until then, I already have a [LinkedIn profile][linkedin]!
-
-[linkedin]: https://www.linkedin.com/in/dsrahmatullah/
+My colleagues describe me as approachable, level-headed, and hardworking. I would describe myself simply as a curious person. In my free time, I enjoy tinkering with my computer to improve my productivity and workflow.

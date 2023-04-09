@@ -1,0 +1,18 @@
+- location: Technische Universiteit Eindhoven
+  degrees:
+  - name: BSc Computer Science and Engineering
+    date: 2019 - 2022
+    description: 
+    - "Software Engineering Project Grade 9.0/10.0: ROS, C++, Java, Vue.js"
+    - "Enrolled in the following elective packages: System Design & Analysis, Cognition and Social interaction, Responsible Innovation for the World"
+    - Achieved Dutch language level A2.
+    - Volunteered as a software developer for <a href="https://cosmostue.nl/">Cosmos</a>.
+
+- location: Qatar International School
+  degrees:
+  - name: International A Level
+    date: 2018 - 2019
+    description: "2A* 2A: Mathematics, Further Mathematics, Physics, Chemistry"
+  - name: International AS Level
+    date: 2017 - 2018
+    description: "5A: Mathematics, Further Mathematics, Physics, Chemistry, Computer Science"
